@@ -1,0 +1,8 @@
+sources:
+  - name: training
+    database: sleekmart_oms_dev
+    schema: training
+
+    tables:
+      - name: travellers
+      - name: trip_bookings
