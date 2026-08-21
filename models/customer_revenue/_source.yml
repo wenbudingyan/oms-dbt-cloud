@@ -1,0 +1,10 @@
+sources:
+  - name: landing
+    database: sleekmart_oms_dev
+    schema: l1_landing
+
+    tables:
+      - name: orders
+      - name: customers
+      - name: order_items
+        identifier: orderitems
